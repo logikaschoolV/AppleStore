@@ -1,0 +1,176 @@
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(180deg, #f5f5f5 0%, #d7d7d7 99.99%, #8f8f8f 100%);
+}
+
+header {
+  background: linear-gradient(180deg, #999999 0%, #E8E8E8 0.01%, #EFEFEF 29.81%, #FFFFFF 100%);
+
+}
+
+footer {
+  background-color: linear-gradient(90deg, #fff 0%, #e0e0e0 99.99%, #999 100%);
+}
+
+/* Меню */
+.menu {
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+/* Блок "Про нас" */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.about-text {
+  width: 70%;
+  color:black;
+}
+
+.about img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+/* Каталог */
+.catalog {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.catalog h2 {
+  margin-bottom: 30px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Відгуки */
+.reviews {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.review img {
+  width: 110px;
+  height: 100px;
+  border-radius: 50%;
+  margin:5px;
+  padding:5px;
+}
+
+/* Карта */
+.map {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.map img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Адреса */
+.address {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #E8E8E8;
+  color: black;
+  font-size: 14px;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social img {
+  width: 50px;
+  margin: 0 5px;
+}
+.footer_{
+  display: flex;
+  justify-content: space-around;
+
+}
+.img{
+    width:200px;
+    height:150px;
+    opacity:0.8;
+}
+a:hover{
+    font-size:25px;
+}
+.img:hover{
+    opacity:100%;
+    width:250px;
+    height:200px;
+}
+.more{
+  color: white;
+  border-radius:10px;
+  background-color:blue;
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+}
+.logo2{
+  width:150px;
+  height:50px;
+  border-radius:10px;
+}
+
+
+
